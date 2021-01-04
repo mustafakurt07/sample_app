@@ -1,24 +1,42 @@
-# README
+# Ruby on Rails Eğitici örnek uygulaması
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bu örnek uygulama
+[* Ruby on Rails Eğiticisi:
+Rails ile Web Geliştirmeyi Öğrenin *] (https://www.railstutorial.org/)
+(6. Baskı)
+[Michael Hartl] (https://www.michaelhartl.com/) tarafından.
 
-Things you may want to cover:
+## Lisans
 
-* Ruby version
+[Ruby on Rails Eğitimi] 'ndeki tüm kaynak kodu (https://www.railstutorial.org/)
+MIT Lisansı ve Bira Yazılımı Lisansı altında birlikte mevcuttur. Görmek
+Ayrıntılar için [LICENSE.md] (LICENSE.md).
 
-* System dependencies
+## Başlangıç
 
-* Configuration
+Uygulamaya başlamak için depoyu klonlayın ve ardından gerekli mücevherleri yükleyin:
 
-* Database creation
+''
+$ paket yükleme - üretim olmadan
+''
 
-* Database initialization
+Ardından, veritabanını taşıyın:
 
-* How to run the test suite
+''
+$ rails db: geçiş
+''
 
-* Services (job queues, cache servers, search engines, etc.)
+Son olarak, her şeyin doğru çalıştığını doğrulamak için test paketini çalıştırın:
 
-* Deployment instructions
+''
+$ raylar testi
+''
 
-* ...
+Test paketi başarılı olursa, uygulamayı yerel bir sunucuda çalıştırmaya hazır olacaksınız:
+
+''
+$ rails sunucusu
+''
+
+Daha fazla bilgi için bkz.
+[* Ruby on Rails Eğitimi * kitabı] (https://www.railstutorial.org/book).
